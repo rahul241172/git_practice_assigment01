@@ -1,9 +1,9 @@
-function prime(num){
-    if(num<=1 || num==undefined){
+function prime(number){
+    if(number<=1 || number==undefined){
         return false
     }
-    for(let i=2;i<=num**0.5;i++){
-        if(num%i==0){
+    for(let i=2;i<=number**0.5;i++){
+        if(number%i==0){
             return false
         }
     }
