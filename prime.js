@@ -9,3 +9,4 @@ function prime(number){
     }
     return true
 }
+if(prime)
